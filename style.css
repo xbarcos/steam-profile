@@ -113,6 +113,12 @@ body {
   font-weight: 200px;
 }
 
+.profile-level-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .profile-level {
   margin-top: 20px;
   font-size: 24px;
@@ -125,7 +131,7 @@ body {
 
 /* Badge */
 .badge {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 60px;
   height: 60px;
   border-radius: 20%;
