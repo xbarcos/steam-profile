@@ -51,26 +51,28 @@ body {
 	margin-top: 15px;
 }
 
+/* .picture-profile {
+	background: url('avatar.png') no-repeat;
+	background-position: 15px;
+	background-size: 190px, 190px;
+} */
 
-.avatar {
-  position: absolute;
-  left: 24.5px;
-  top: 10px;
+.picture-profile img {
+	background: url('avatar.png') no-repeat;
+	background-size: 185px 181px;
+	background-position: 17px;
 }
-.picture {
-	width: 181px;
-	height: 180px;
-}
+
 
 .title {
 	color: white;
 	font-weight: 800px;
-	margin-top: 50px;
 }
 
 .profile-text {
-  padding-left: 25px;
-	padding-right: 25px;
+	margin-top: 20px;
+  padding-left: 50px;
+	padding-right: 50px;
 }
 
 .profile-text h1 {
@@ -102,7 +104,6 @@ body {
   line-height: 26px;
   text-align: center;
   cursor: default;
-  margin-top: 2px;
   border-color: #fecc23;
 	margin-left: 10px;
 }
@@ -113,6 +114,7 @@ body {
 }
 
 .profile-level {
+	margin-top: 20px;
   font-size: 24px;
   color: white;
   font-weight: 200px;
@@ -279,7 +281,7 @@ a {
 	color: white;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1255px){
 	.profile {
 		position: absolute;
 		width: 100%;
@@ -296,15 +298,15 @@ a {
 	p {
 		font-size: 12px;
 	}
-	.avatar {
-		left: 23%;
-	}
 	.address {
-		position: absolute;
-		left: 30%;
+		justify-content: center;
 	}
 	.profile-level {
 		justify-content: center;
 		margin-top: 50px;
+	}
+
+	.title {
+		margin-top: 35px;
 	}
 }
